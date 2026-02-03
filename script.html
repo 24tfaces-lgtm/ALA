@@ -2114,57 +2114,141 @@ ${DISCLAIMER.kz}`
         `
       },
       buttonsByGrid: {
-        objTop: [
-          { label:'Не буду отвечать на вопросы', label_kz:'Сұраққа жауап бермеймін', color:'red', text:{ru:T('obj_no_questions_v1'), kz:T('obj_no_questions_v1')} },
-          { label:'Спасибо, мне ничего не нужно (1)', label_kz:'Рахмет, керек емес (1)', color:'red', text:{ru:T('obj_thanks_nothing_v1'), kz:T('obj_thanks_nothing_v1')} },
-          { label:'Спасибо, мне ничего не нужно (2)', label_kz:'Рахмет, керек емес (2)', color:'red', text:{ru:T('obj_thanks_nothing_v2'), kz:T('obj_thanks_nothing_v2')} },
-          { label:'Льгота позже', label_kz:'Жеңілдік кейін', color:'red', text:{ru:T('obj_benefit_later'), kz:T('obj_benefit_later')} },
-          { label:'Откуда номер', label_kz:'Нөмір қайдан', color:'gray', text:{ru:T('obj_where_number'), kz:T('obj_where_number')} },
-          { label:'Мне ничего не нужно', label_kz:'Маған ештеңе керек емес', color:'red', text:{ru:T('obj_nothing_needed'), kz:T('obj_nothing_needed')} },
-          { label:'Какая компания?', label_kz:'Қандай компания?', color:'gray', text:{ru:T('obj_company'), kz:T('obj_company')} },
-          { label:'Это мошенники (коротко)', label_kz:'Алаяқ па', color:'red', text:{ru:T('obj_scam_v1'), kz:T('obj_scam_v1')} },
-          { label:'Каталог / WhatsApp', label_kz:'Каталог / WhatsApp', color:'gray', text:{ru:T('obj_catalog'), kz:T('obj_catalog')} },
-          { label:'Сколько стоит? (рано)', label_kz:'Баға? (ерте)', color:'gray', text:{ru:T('obj_price_early'), kz:T('obj_price_early')} }
-        ],
-        objCost: [
-          { label:'Нет денег (1)', label_kz:'Ақша жоқ (1)', color:'red', text:{ru:T('cost_no_money_v1'), kz:T('cost_no_money_v1')} },
-          { label:'Нет денег (2)', label_kz:'Ақша жоқ (2)', color:'red', text:{ru:T('cost_no_money_v2'), kz:T('cost_no_money_v2')} },
-          { label:'Дорого (1)', label_kz:'Қымбат (1)', color:'red', text:{ru:T('cost_expensive_v1'), kz:T('cost_expensive_v1')} },
-          { label:'Дорого (2)', label_kz:'Қымбат (2)', color:'red', text:{ru:T('cost_expensive_v2'), kz:T('cost_expensive_v2')} },
-          { label:'Дорого (3)', label_kz:'Қымбат (3)', color:'red', text:{ru:T('cost_expensive_v3'), kz:T('cost_expensive_v3')} },
-          { label:'Пробный курс', label_kz:'Сынақ курсы', color:'gray', text:{ru:T('cost_trial'), kz:T('cost_trial')} },
-          { label:'У меня кредиты', label_kz:'Кредитім бар', color:'red', text:{ru:T('cost_loans'), kz:T('cost_loans')} },
-          { label:'Куплю в аптеке (1)', label_kz:'Дәріханада (1)', color:'gray', text:{ru:T('cost_pharmacy_v1'), kz:T('cost_pharmacy_v1')} },
-          { label:'Куплю в аптеке (2)', label_kz:'Дәріханада (2)', color:'gray', text:{ru:T('cost_pharmacy_v2'), kz:T('cost_pharmacy_v2')} },
-          { label:'Закажу позже', label_kz:'Кейін аламын', color:'red', text:{ru:T('cost_later'), kz:T('cost_later')} }
-        ],
-        objThink: [
-          { label:'Что именно думать?', label_kz:'Нені ойлау?', color:'red', text:{ru:T('think_main'), kz:T('think_main')} },
-          { label:'Вопрос 1', label_kz:'Сұрақ 1', color:'red', text:{ru:T('think_q1'), kz:T('think_q1')} },
-          { label:'Вопрос 2', label_kz:'Сұрақ 2', color:'red', text:{ru:T('think_q2'), kz:T('think_q2')} },
-          { label:'Вопрос 3', label_kz:'Сұрақ 3', color:'red', text:{ru:T('think_q3'), kz:T('think_q3')} },
-          { label:'Вопрос 4', label_kz:'Сұрақ 4', color:'red', text:{ru:T('think_q4'), kz:T('think_q4')} },
-          { label:'Вопрос 5', label_kz:'Сұрақ 5', color:'red', text:{ru:T('think_q5'), kz:T('think_q5')} },
-          { label:'Вопрос 6', label_kz:'Сұрақ 6', color:'red', text:{ru:T('think_q6'), kz:T('think_q6')} },
-          { label:'Вопрос 7', label_kz:'Сұрақ 7', color:'red', text:{ru:T('think_q7'), kz:T('think_q7')} },
-          { label:'Вопрос 8', label_kz:'Сұрақ 8', color:'red', text:{ru:T('think_q8'), kz:T('think_q8')} },
-          { label:'Итог', label_kz:'Қорытынды', color:'red', text:{ru:T('think_summary'), kz:T('think_summary')} }
-        ],
-        objTrust: [
-          { label:'Какие гарантии?', label_kz:'Кепілдік қандай?', color:'red', text:{ru:T('trust_guarantee'), kz:T('trust_guarantee')} },
-          { label:'А если не поможет?', label_kz:'Көмектеспесе ше?', color:'red', text:{ru:T('trust_not_help_1'), kz:T('trust_not_help_1')} },
-          { label:'Никогда не слышал', label_kz:'Білмеймін', color:'gray', text:{ru:T('trust_never_heard'), kz:T('trust_never_heard')} },
-          { label:'Посоветуюсь с врачом', label_kz:'Дәрігермен ақылдасам', color:'red', text:{ru:T('trust_doctor'), kz:T('trust_doctor')} },
-          { label:'Посоветуюсь с семьёй', label_kz:'Отбасыммен ақылдасам', color:'red', text:{ru:T('trust_family'), kz:T('trust_family')} },
-          { label:'Я пенсионер', label_kz:'Зейнеткермін', color:'red', text:{ru:T('trust_pensioner_no_money'), kz:T('trust_pensioner_no_money')} },
-          { label:'Пенсия маленькая', label_kz:'Зейнетақым аз', color:'red', text:{ru:T('trust_small_pension'), kz:T('trust_small_pension')} },
-          { label:'Вы мошенники', label_kz:'Алаяқсыздар', color:'red', text:{ru:T('trust_scammers'), kz:T('trust_scammers')} },
-          { label:'Это развод', label_kz:'Бұл алаяқтық', color:'red', text:{ru:T('trust_scam_long'), kz:T('trust_scam_long')} },
-          { label:'Возврат', label_kz:'Қайтару', color:'gray', text:{ru:T('trust_return'), kz:T('trust_return')} },
-          { label:'Я перезвоню', label_kz:'Қайта хабарласам', color:'red', text:{ru:T('trust_call_back'), kz:T('trust_call_back')} },
-          { label:'Скиньте на WhatsApp', label_kz:'WhatsApp-қа жібер', color:'red', text:{ru:T('trust_whatsapp'), kz:T('trust_whatsapp')} }
-        ]
-      }
+  objTop: [
+    { label:'Не буду отвечать на вопросы', label_kz:'Сұраққа жауап бермеймін', color:'red',
+      text:{ ru: TEXT.ru.obj_no_questions_v1, kz: TEXT.kz.obj_no_questions_v1 } },
+
+    { label:'Спасибо, мне ничего не нужно (1)', label_kz:'Рахмет, керек емес (1)', color:'red',
+      text:{ ru: TEXT.ru.obj_thanks_nothing_v1, kz: TEXT.kz.obj_thanks_nothing_v1 } },
+
+    { label:'Спасибо, мне ничего не нужно (2)', label_kz:'Рахмет, керек емес (2)', color:'red',
+      text:{ ru: TEXT.ru.obj_thanks_nothing_v2, kz: TEXT.kz.obj_thanks_nothing_v2 } },
+
+    { label:'Льгота позже', label_kz:'Жеңілдік кейін', color:'red',
+      text:{ ru: TEXT.ru.obj_benefit_later, kz: TEXT.kz.obj_benefit_later } },
+
+    { label:'Откуда номер', label_kz:'Нөмір қайдан', color:'gray',
+      text:{ ru: TEXT.ru.obj_where_number, kz: TEXT.kz.obj_where_number } },
+
+    { label:'Мне ничего не нужно', label_kz:'Маған ештеңе керек емес', color:'red',
+      text:{ ru: TEXT.ru.obj_nothing_needed, kz: TEXT.kz.obj_nothing_needed } },
+
+    { label:'Какая компания?', label_kz:'Қандай компания?', color:'gray',
+      text:{ ru: TEXT.ru.obj_company, kz: TEXT.kz.obj_company } },
+
+    { label:'Это мошенники (коротко)', label_kz:'Алаяқ па', color:'red',
+      text:{ ru: TEXT.ru.obj_scam_v1, kz: TEXT.kz.obj_scam_v1 } },
+
+    { label:'Каталог / WhatsApp', label_kz:'Каталог / WhatsApp', color:'gray',
+      text:{ ru: TEXT.ru.obj_catalog, kz: TEXT.kz.obj_catalog } },
+
+    { label:'Сколько стоит? (рано)', label_kz:'Баға? (ерте)', color:'gray',
+      text:{ ru: TEXT.ru.obj_price_early, kz: TEXT.kz.obj_price_early } }
+  ],
+
+  objCost: [
+    { label:'Нет денег (1)', label_kz:'Ақша жоқ (1)', color:'red',
+      text:{ ru: TEXT.ru.cost_no_money_v1, kz: TEXT.kz.cost_no_money_v1 } },
+
+    { label:'Нет денег (2)', label_kz:'Ақша жоқ (2)', color:'red',
+      text:{ ru: TEXT.ru.cost_no_money_v2, kz: TEXT.kz.cost_no_money_v2 } },
+
+    { label:'Дорого (1)', label_kz:'Қымбат (1)', color:'red',
+      text:{ ru: TEXT.ru.cost_expensive_v1, kz: TEXT.kz.cost_expensive_v1 } },
+
+    { label:'Дорого (2)', label_kz:'Қымбат (2)', color:'red',
+      text:{ ru: TEXT.ru.cost_expensive_v2, kz: TEXT.kz.cost_expensive_v2 } },
+
+    { label:'Дорого (3)', label_kz:'Қымбат (3)', color:'red',
+      text:{ ru: TEXT.ru.cost_expensive_v3, kz: TEXT.kz.cost_expensive_v3 } },
+
+    { label:'Пробный курс', label_kz:'Сынақ курсы', color:'gray',
+      text:{ ru: TEXT.ru.cost_trial, kz: TEXT.kz.cost_trial } },
+
+    { label:'У меня кредиты', label_kz:'Кредитім бар', color:'red',
+      text:{ ru: TEXT.ru.cost_loans, kz: TEXT.kz.cost_loans } },
+
+    { label:'Куплю в аптеке (1)', label_kz:'Дәріханада (1)', color:'gray',
+      text:{ ru: TEXT.ru.cost_pharmacy_v1, kz: TEXT.kz.cost_pharmacy_v1 } },
+
+    { label:'Куплю в аптеке (2)', label_kz:'Дәріханада (2)', color:'gray',
+      text:{ ru: TEXT.ru.cost_pharmacy_v2, kz: TEXT.kz.cost_pharmacy_v2 } },
+
+    { label:'Закажу позже', label_kz:'Кейін аламын', color:'red',
+      text:{ ru: TEXT.ru.cost_later, kz: TEXT.kz.cost_later } }
+  ],
+
+  objThink: [
+    { label:'Что именно думать?', label_kz:'Нені ойлау?', color:'red',
+      text:{ ru: TEXT.ru.think_main, kz: TEXT.kz.think_main } },
+
+    { label:'Вопрос 1', label_kz:'Сұрақ 1', color:'red',
+      text:{ ru: TEXT.ru.think_q1, kz: TEXT.kz.think_q1 } },
+
+    { label:'Вопрос 2', label_kz:'Сұрақ 2', color:'red',
+      text:{ ru: TEXT.ru.think_q2, kz: TEXT.kz.think_q2 } },
+
+    { label:'Вопрос 3', label_kz:'Сұрақ 3', color:'red',
+      text:{ ru: TEXT.ru.think_q3, kz: TEXT.kz.think_q3 } },
+
+    { label:'Вопрос 4', label_kz:'Сұрақ 4', color:'red',
+      text:{ ru: TEXT.ru.think_q4, kz: TEXT.kz.think_q4 } },
+
+    { label:'Вопрос 5', label_kz:'Сұрақ 5', color:'red',
+      text:{ ru: TEXT.ru.think_q5, kz: TEXT.kz.think_q5 } },
+
+    { label:'Вопрос 6', label_kz:'Сұрақ 6', color:'red',
+      text:{ ru: TEXT.ru.think_q6, kz: TEXT.kz.think_q6 } },
+
+    { label:'Вопрос 7', label_kz:'Сұрақ 7', color:'red',
+      text:{ ru: TEXT.ru.think_q7, kz: TEXT.kz.think_q7 } },
+
+    { label:'Вопрос 8', label_kz:'Сұрақ 8', color:'red',
+      text:{ ru: TEXT.ru.think_q8, kz: TEXT.kz.think_q8 } },
+
+    { label:'Итог', label_kz:'Қорытынды', color:'red',
+      text:{ ru: TEXT.ru.think_summary, kz: TEXT.kz.think_summary } }
+  ],
+
+  objTrust: [
+    { label:'Какие гарантии?', label_kz:'Кепілдік қандай?', color:'red',
+      text:{ ru: TEXT.ru.trust_guarantee, kz: TEXT.kz.trust_guarantee } },
+
+    { label:'А если не поможет?', label_kz:'Көмектеспесе ше?', color:'red',
+      text:{ ru: TEXT.ru.trust_not_help_1, kz: TEXT.kz.trust_not_help_1 } },
+
+    { label:'Никогда не слышал', label_kz:'Білмеймін', color:'gray',
+      text:{ ru: TEXT.ru.trust_never_heard, kz: TEXT.kz.trust_never_heard } },
+
+    { label:'Посоветуюсь с врачом', label_kz:'Дәрігермен ақылдасам', color:'red',
+      text:{ ru: TEXT.ru.trust_doctor, kz: TEXT.kz.trust_doctor } },
+
+    { label:'Посоветуюсь с семьёй', label_kz:'Отбасыммен ақылдасам', color:'red',
+      text:{ ru: TEXT.ru.trust_family, kz: TEXT.kz.trust_family } },
+
+    { label:'Я пенсионер', label_kz:'Зейнеткермін', color:'red',
+      text:{ ru: TEXT.ru.trust_pensioner_no_money, kz: TEXT.kz.trust_pensioner_no_money } },
+
+    { label:'Пенсия маленькая', label_kz:'Зейнетақым аз', color:'red',
+      text:{ ru: TEXT.ru.trust_small_pension, kz: TEXT.kz.trust_small_pension } },
+
+    { label:'Вы мошенники', label_kz:'Алаяқсыздар', color:'red',
+      text:{ ru: TEXT.ru.trust_scammers, kz: TEXT.kz.trust_scammers } },
+
+    { label:'Это развод', label_kz:'Бұл алаяқтық', color:'red',
+      text:{ ru: TEXT.ru.trust_scam_long, kz: TEXT.kz.trust_scam_long } },
+
+    { label:'Возврат', label_kz:'Қайтару', color:'gray',
+      text:{ ru: TEXT.ru.trust_return, kz: TEXT.kz.trust_return } },
+
+    { label:'Я перезвоню', label_kz:'Қайта хабарласам', color:'red',
+      text:{ ru: TEXT.ru.trust_call_back, kz: TEXT.kz.trust_call_back } },
+
+    { label:'Скиньте на WhatsApp', label_kz:'WhatsApp-қа жібер', color:'red',
+      text:{ ru: TEXT.ru.trust_whatsapp, kz: TEXT.kz.trust_whatsapp } }
+  ]
+}
+
     }
   ];
 
